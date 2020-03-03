@@ -1,4 +1,3 @@
-
 import React, { useState, useRef, useEffect } from 'react';
 import './App.css';
 
@@ -6,18 +5,22 @@ function App() {
   const [val, setVal] = useState('');
   const inputEl = useRef(null);
   const keyPress = e => {
-    if (e.keyCode ==13) {
+    if (e.keyCode == 13) {
       window.open(`https://3x.ant.design/components/${val}-cn/`);
       setVal('');
     }
   };
-  useEffect(() => { 
+  useEffect(() => {
     inputEl.current.focus();
   }, []);
   return (
     <div className="App" onClick={() => inputEl.current.focus()}>
       <header className="App-header">
-        <p>
+        <p
+          style={{
+            margin: 0
+          }}
+        >
           <strong>跳转 Antd 组件 3.x</strong>
         </p>
         <div>

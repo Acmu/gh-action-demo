@@ -1,6 +1,6 @@
 # gh-action-demo
 
-gh-action-demo
+由于 antd 的搜索实在难用，所以这个可以直接输入组件名，之后会跳转 Antd 到组件 3.x
 
 ## 邮箱配置
 
