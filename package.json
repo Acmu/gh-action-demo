@@ -1,5 +1,5 @@
 {
-  "name": "gh-action-demo2",
+  "name": "gh-action-demo",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

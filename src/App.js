@@ -21,6 +21,11 @@ const Header = styled.div`
   font-size: 20px;
   font-weight: 500;
 `;
+const Bold = styled.div`
+  font-weight: 500;
+  font-size: 18px;
+  margin-bottom: 10px;
+`;
 
 function App() {
   const inputEl = useRef(null);
@@ -46,7 +51,7 @@ function App() {
       <Row>
         <Col span={14} push={5}>
           <Header>
-            跳转 Antd 组件 3.x{' '}
+            跳转 Antd 组件 3.x
             <StyA
               className="App-link"
               href="https://github.com/Acmu/gh-action-demo"
@@ -57,12 +62,14 @@ function App() {
             </StyA>
           </Header>
           <div>
+            <Bold>
+              请输入一个组件，然后按回车，支持模糊搜索，Select 框总是聚焦中
+            </Bold>
             <Select
               showSearch
               size="large"
               ref={inputEl}
-              style={{ width: 500 }}
-              placeholder="请选择一个组件，然后按回车"
+              style={{ width: 300 }}
               optionFilterProp="children"
               onChange={onChange}
               filterOption={(input, option) => {
