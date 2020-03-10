@@ -1,19 +1,7 @@
 # gh-action-demo
 
-由于 antd 的搜索实在难用，所以这个可以直接输入组件名，之后会跳转 Antd 到组件 3.x
+大家是不是觉得 AntD 的搜索太慢、太难用了，我也是这么想的，所以我自己写了一个：https://acmu.github.io/gh-action-demo/acmu.github.io/gh-action-demo
 
-## 邮箱配置
+欢迎大家使用，只要输入组件名称，如 btn ，在按回车，就可以跳转到对应组件，看完了可以关闭页面，回去继续搜。
 
-```sh
-git config user.name "Ni" && git config user.email "s1124yy@gmail.com" && cat .git/config
-```
-
-
-## 问题
-
-搞不懂啊，为什么我的会404啊，[阮一峰](https://github.com/ruanyf/github-actions-demo)的却没问题啊？
-
-
-## 解决
-
-因为没有在 `package.json` 中加入 `homepage` 字段，就会导致404，找不到 css 和 js 文件。
+![](https://imgkr.cn-bj.ufileos.com/10477fd6-2877-4428-bbcb-5d64aba381bd.png)
