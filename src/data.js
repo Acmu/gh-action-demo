@@ -26,7 +26,6 @@ export const comps = [
   'form',
   'grid',
   'icon',
-  'index.tsx',
   'input',
   'input-number',
   'layout',
