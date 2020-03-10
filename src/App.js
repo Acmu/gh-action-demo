@@ -17,14 +17,14 @@ const Header = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 12px;
+  margin: 12px 0;
   font-size: 20px;
   font-weight: 500;
 `;
 const Bold = styled.div`
   font-weight: 500;
   font-size: 18px;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 `;
 
 function App() {
@@ -69,7 +69,7 @@ function App() {
               showSearch
               size="large"
               ref={inputEl}
-              style={{ width: 300 }}
+              style={{ width: 366 }}
               optionFilterProp="children"
               onChange={onChange}
               filterOption={(input, option) => {
