@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/gh-action-demo/static/css/main.34de6062.chunk.css",
+    "main.js": "/gh-action-demo/static/js/main.4e60827d.chunk.js",
+    "main.js.map": "/gh-action-demo/static/js/main.4e60827d.chunk.js.map",
+    "runtime~main.js": "/gh-action-demo/static/js/runtime~main.1d90814f.js",
+    "runtime~main.js.map": "/gh-action-demo/static/js/runtime~main.1d90814f.js.map",
+    "static/css/2.5b4d90a6.chunk.css": "/gh-action-demo/static/css/2.5b4d90a6.chunk.css",
+    "static/js/2.4d496c9d.chunk.js": "/gh-action-demo/static/js/2.4d496c9d.chunk.js",
+    "static/js/2.4d496c9d.chunk.js.map": "/gh-action-demo/static/js/2.4d496c9d.chunk.js.map",
+    "index.html": "/gh-action-demo/index.html",
+    "precache-manifest.9f66299e6f5febcae14eeb7176acd89f.js": "/gh-action-demo/precache-manifest.9f66299e6f5febcae14eeb7176acd89f.js",
+    "service-worker.js": "/gh-action-demo/service-worker.js",
+    "static/css/2.5b4d90a6.chunk.css.map": "/gh-action-demo/static/css/2.5b4d90a6.chunk.css.map",
+    "static/css/main.34de6062.chunk.css.map": "/gh-action-demo/static/css/main.34de6062.chunk.css.map"
+  }
+}
